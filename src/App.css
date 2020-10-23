@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  width: 520px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -35,4 +36,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+.fa-users {
+  margin: 10px 10px 10px 0;
+}
+.operation-block {
+  border: 1px solid #000;
+}
+.operation-block .fa {
+  margin: 20px 10px;
+  font-size: 20px;
+}
+.adults-label, .children-label {
+  margin: 0 0 0 10px;
+}
+.fa-users, .choose-txt, .fa-bed, .operation-labels, .fa-user, .fa-child, .fa-minus-circle{
+  color: #283188;
+}
+.rfloat {
+  float: right;
+}
+.red {
+  color: red;
+}
+.pointer {
+  cursor: pointer;
+}
+.sub-operation-block, .lastsub-operation-block {
+  border-bottom: 1px solid #000;
+  margin: 0 10px;
+}
+.lastsub-operation-block {
+  border: none;
+}
+.fa-bed, .fa-user, .fa-child {
+  margin-left: 0 !important;
 }
